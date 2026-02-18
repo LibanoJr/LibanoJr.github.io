@@ -38,3 +38,23 @@ details summary {
 details {
   color: #e6edf3;
 }
+
+.sidebar {
+  color: #e6edf3 !important;
+}
+
+.sidebar p,
+.sidebar li,
+.sidebar details,
+.sidebar summary {
+  color: #e6edf3 !important;
+}
+
+.sidebar a {
+  color: #58a6ff !important;
+}
+
+.sidebar summary {
+  font-weight: 600;
+  cursor: pointer;
+}
