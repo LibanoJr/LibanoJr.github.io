@@ -73,3 +73,33 @@ details summary {
   cursor: pointer;
   font-weight: 600;
 }
+
+/* ===========================
+   PROJECT CARDS
+=========================== */
+
+.project-card {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 18px 22px;
+  transition: all 0.25s ease;
+}
+
+.project-card:hover {
+  border-color: #58a6ff;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.project-card summary {
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ffffff !important;
+  list-style: none;
+}
+
+.project-card summary::-webkit-details-marker {
+  display: none;
+}
