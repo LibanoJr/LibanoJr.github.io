@@ -23,20 +23,34 @@ Atuo no desenvolvimento de soluções analíticas aplicadas a contextos que exig
 
 ## O Que Eu Já Fiz
 
-### Sistema Inteligente de Análise de Risco e Compliance em Contratações Públicas
+<div class="project-card">
+<details>
+<summary>Sistema Inteligente de Análise de Risco e Compliance em Contratações Públicas</summary>
+
+<br>
 
 Projeto desenvolvido com foco em monitoramento e análise de risco em contratações públicas.
 
 A solução realiza cruzamento de dados entre contratos públicos e bases de sanções (CEIS/CNEP), permitindo identificação de reincidência, padrões de risco e suporte à tomada de decisão preventiva.
 
-Tecnologias utilizadas: Python, consumo de APIs públicas, análise de dados e modelagem de critérios.
+<strong>Tecnologias:</strong> Python, APIs públicas, análise de dados e modelagem de critérios.
 
----
+</details>
+</div>
 
-### Sistema de Recuperação e Ranqueamento de Informação Web
+<br>
 
-Ferramenta desenvolvida para recuperação automatizada de páginas web (crawling nível 1) e ranqueamento de documentos com base em critérios ponderados de relevância.
+<div class="project-card">
+<details>
+<summary>Sistema de Recuperação e Ranqueamento de Informação Web</summary>
+
+<br>
+
+Ferramenta desenvolvida para recuperação automatizada de páginas web (crawling nível 1) e ranqueamento de documentos com base em critérios ponderados.
 
 O sistema permite ajuste de pesos conforme estratégia de avaliação, aplicando lógica algorítmica para classificação de documentos com base em palavras-chave.
 
-Tecnologias utilizadas: Python, manipulação de requisições HTTP, processamento textual e modelagem de critérios de pontuação.
+<strong>Tecnologias:</strong> Python, requisições HTTP, processamento textual e modelagem de pontuação.
+
+</details>
+</div>
