@@ -4,34 +4,64 @@
 @import "{{ site.theme }}";
 
 /* ===========================
-   DARK MODE GLOBAL
+   DARK MODE BASE
 =========================== */
 
-body {
+html, body {
   background-color: #0d1117 !important;
   color: #e6edf3 !important;
 }
 
-a {
-  color: #58a6ff !important;
+/* Força texto geral */
+body, p, li, span {
+  color: #e6edf3 !important;
 }
 
+/* Títulos */
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff !important;
 }
 
+/* Links */
+a {
+  color: #58a6ff !important;
+}
+
+/* Código */
 code {
   background-color: #161b22 !important;
   color: #e6edf3 !important;
 }
 
+/* Linha divisória */
 hr {
   border-color: #30363d !important;
 }
 
+/* ===========================
+   WRAPPER / SIDEBAR FIX REAL
+=========================== */
+
+.wrapper {
+  background-color: #0d1117 !important;
+}
+
+.site-title,
+.site-description,
+.wrapper p,
+.wrapper li,
+.wrapper span,
+.wrapper strong {
+  color: #e6edf3 !important;
+}
+
+/* Remove qualquer fundo branco herdado */
+header, section, footer {
+  background-color: transparent !important;
+}
 
 /* ===========================
-   DETAILS / SUMMARY
+   DETAILS
 =========================== */
 
 details {
@@ -42,31 +72,4 @@ details summary {
   color: #58a6ff !important;
   cursor: pointer;
   font-weight: 600;
-}
-
-
-/* ===========================
-   SIDEBAR FIX (CORREÇÃO FINAL)
-=========================== */
-
-.sidebar {
-  background-color: #0d1117 !important;
-  color: #e6edf3 !important;
-}
-
-.sidebar p,
-.sidebar span,
-.sidebar li,
-.sidebar strong {
-  color: #e6edf3 !important;
-}
-
-.sidebar h1,
-.sidebar h2,
-.sidebar h3 {
-  color: #ffffff !important;
-}
-
-.sidebar a {
-  color: #58a6ff !important;
 }
