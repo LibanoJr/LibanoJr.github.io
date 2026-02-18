@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 /* ===========================
-   DARK MODE CUSTOM
+   DARK MODE GLOBAL
 =========================== */
 
 body {
@@ -29,32 +29,44 @@ hr {
   border-color: #30363d !important;
 }
 
+
+/* ===========================
+   DETAILS / SUMMARY
+=========================== */
+
+details {
+  color: #e6edf3 !important;
+}
+
 details summary {
-  color: #58a6ff;
+  color: #58a6ff !important;
   cursor: pointer;
   font-weight: 600;
 }
 
-details {
-  color: #e6edf3;
-}
+
+/* ===========================
+   SIDEBAR FIX (CORREÇÃO FINAL)
+=========================== */
 
 .sidebar {
+  background-color: #0d1117 !important;
   color: #e6edf3 !important;
 }
 
 .sidebar p,
+.sidebar span,
 .sidebar li,
-.sidebar details,
-.sidebar summary {
+.sidebar strong {
   color: #e6edf3 !important;
+}
+
+.sidebar h1,
+.sidebar h2,
+.sidebar h3 {
+  color: #ffffff !important;
 }
 
 .sidebar a {
   color: #58a6ff !important;
-}
-
-.sidebar summary {
-  font-weight: 600;
-  cursor: pointer;
 }
