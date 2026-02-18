@@ -1,13 +1,16 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
-  <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
-  
+title: Líbano Júnior
+logo: "/images/logo.png?raw=true"
+
+description: >
+  Engenheiro da Computação <br><br>
+  Pós-graduando em Ciência de Dados <br><br>
+
+  Foco em análise, padronização e sistematização de dados. <br><br>
+  Construção de dashboards e soluções tecnológicas integradas. <br><br>
+
+  <a href="https://www.linkedin.com/in/libano-abboud/">LinkedIn</a> <br>
+  <a href="https://github.com/LibanoJr">GitHub</a>
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
