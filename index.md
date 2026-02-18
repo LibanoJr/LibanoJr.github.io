@@ -24,43 +24,60 @@ Atuo no desenvolvimento de soluções analíticas aplicadas a contextos que exig
 ## O Que Eu Já Fiz
 
 <div class="project-card">
+
 <details>
 <summary>Sistema Inteligente de Análise de Risco e Compliance em Contratações Públicas</summary>
 
 <br>
 
+<p>
 Projeto desenvolvido com foco em monitoramento e análise de risco em contratações públicas.
-
-A solução realiza cruzamento de dados entre contratos públicos e bases de sanções (CEIS/CNEP), permitindo identificação de reincidência, padrões de risco e suporte à tomada de decisão preventiva.
+A solução realiza cruzamento de dados entre contratos públicos e bases de sanções (CEIS/CNEP),
+permitindo identificação de reincidência, padrões de risco e suporte à tomada de decisão preventiva.
+</p>
 
 <br>
 
-<span class="tech-badge">Python</span>
-<span class="tech-badge">APIs Públicas</span>
-<span class="tech-badge">Análise de Dados</span>
-<span class="tech-badge">Modelagem de Critérios</span>
+<strong>Tecnologias Utilizadas:</strong>
+
+<ul class="tech-list">
+<li>Python</li>
+<li>APIs Públicas</li>
+<li>Análise de Dados</li>
+<li>Modelagem de Critérios</li>
+</ul>
 
 </details>
+
 </div>
 
 <br>
 
 <div class="project-card">
+
 <details>
 <summary>Sistema de Recuperação e Ranqueamento de Informação Web</summary>
 
 <br>
 
-Ferramenta desenvolvida para recuperação automatizada de páginas web (crawling nível 1) e ranqueamento de documentos com base em critérios ponderados.
-
-O sistema permite ajuste de pesos conforme estratégia de avaliação, aplicando lógica algorítmica para classificação de documentos com base em palavras-chave.
+<p>
+Ferramenta desenvolvida para recuperação automatizada de páginas web (crawling nível 1)
+e ranqueamento de documentos com base em critérios ponderados.
+O sistema permite ajuste de pesos conforme estratégia de avaliação,
+aplicando lógica algorítmica para classificação de documentos com base em palavras-chave.
+</p>
 
 <br>
 
-<span class="tech-badge">Python</span>
-<span class="tech-badge">Web Crawling</span>
-<span class="tech-badge">Processamento Textual</span>
-<span class="tech-badge">Algoritmos de Ranqueamento</span>
+<strong>Tecnologias Utilizadas:</strong>
+
+<ul class="tech-list">
+<li>Python</li>
+<li>Web Crawling</li>
+<li>Processamento Textual</li>
+<li>Algoritmos de Ranqueamento</li>
+</ul>
 
 </details>
+
 </div>
