@@ -2,7 +2,7 @@
 
 ---
 
-# 🛡 Sistema de Análise de Risco e Compliance em Contratações Públicas
+# Sistema de Análise de Risco e Compliance em Contratações Públicas
 
 Projeto desenvolvido no contexto da Pós-Graduação em Ciência de Dados com foco em integridade, prevenção e gestão de risco em contratações públicas.
 
@@ -32,5 +32,33 @@ A solução passou a realizar o cruzamento entre dados de contratações públic
 - Cruzamento de bases de dados
 - Estruturação de modelo de risco
 - Aplicação de técnicas de Inteligência Artificial
+
+---
+
+# 🔎 Sistema de Recuperação e Ranqueamento de Informação Web
+
+Ferramenta desenvolvida em Python para recuperação automatizada de páginas web e análise de relevância textual.
+
+## Descrição
+
+O sistema recebe uma URL inicial e realiza a coleta da página principal e dos links referenciados em um nível abaixo (crawling de profundidade 1).
+
+O usuário informa duas palavras-chave, e o sistema calcula um ranqueamento dos documentos com base em critérios de avaliação ponderados, permitindo ajuste de pesos conforme relevância desejada.
+
+## Funcionalidades
+
+- Coleta automatizada de páginas web
+- Processamento textual
+- Cálculo de relevância baseado em múltiplos critérios
+- Sistema de pontuação ajustável por pesos
+- Retorno do link com maior índice de relevância
+
+## Tecnologias Utilizadas
+
+- Python
+- Estruturas de dados
+- Processamento de texto
+- Algoritmos de ranqueamento
+- Manipulação de requisições HTTP
 
 ---
