@@ -1,64 +1,42 @@
-## Portfólio
+# Portfólio
 
 ---
 
-# Sistema de Análise de Risco e Compliance em Contratações Públicas
+## Quem Sou Eu
 
-Projeto desenvolvido no contexto da Pós-Graduação em Ciência de Dados com foco em integridade, prevenção e gestão de risco em contratações públicas.
+Engenheiro da Computação com especialização em Ciência de Dados e Inteligência Artificial, com foco na estruturação, análise e interpretação de dados para apoio à tomada de decisão.
 
-## Contexto
-
-O projeto iniciou como um sistema de monitoramento passivo de gastos públicos, analisando contratos firmados pelo Ministério da Educação (MEC) a partir de dados extraídos via API do Portal da Transparência.
-
-Durante a validação do MVP, identificou-se uma limitação estratégica: a análise de contratos já firmados possui baixo potencial preventivo e a simples verificação de valores não captura riscos de integridade.
-
-## Evolução do Projeto
-
-O escopo foi reestruturado para uma abordagem orientada a Compliance e Combate à Corrupção.
-
-A solução passou a realizar o cruzamento entre dados de contratações públicas e bases de sanções e penalidades (CEIS/CNEP), permitindo:
-
-- Identificação de empresas com histórico de inidoneidade
-- Análise de reincidência
-- Detecção de padrões de risco
-- Apoio à tomada de decisão preventiva
-
-## Tecnologias e Competências Aplicadas
-
-- Python
-- Consumo de APIs públicas
-- Extração, limpeza e padronização de dados
-- Análise exploratória
-- Cruzamento de bases de dados
-- Estruturação de modelo de risco
-- Aplicação de técnicas de Inteligência Artificial
+Atuo no desenvolvimento de soluções analíticas aplicadas a contextos que exigem rigor técnico, confiabilidade, governança e análise de risco.
 
 ---
 
-# 🔎 Sistema de Recuperação e Ranqueamento de Informação Web
+## O Que Eu Faço
 
-Ferramenta desenvolvida em Python para recuperação automatizada de páginas web e análise de relevância textual.
-
-## Descrição
-
-O sistema recebe uma URL inicial e realiza a coleta da página principal e dos links referenciados em um nível abaixo (crawling de profundidade 1).
-
-O usuário informa duas palavras-chave, e o sistema calcula um ranqueamento dos documentos com base em critérios de avaliação ponderados, permitindo ajuste de pesos conforme relevância desejada.
-
-## Funcionalidades
-
-- Coleta automatizada de páginas web
-- Processamento textual
-- Cálculo de relevância baseado em múltiplos critérios
-- Sistema de pontuação ajustável por pesos
-- Retorno do link com maior índice de relevância
-
-## Tecnologias Utilizadas
-
-- Python
-- Estruturas de dados
-- Processamento de texto
-- Algoritmos de ranqueamento
-- Manipulação de requisições HTTP
+- Estruturação e padronização de bases de dados complexas  
+- Desenvolvimento de soluções analíticas em Python  
+- Consumo e integração de APIs públicas  
+- Modelagem de critérios e sistemas de ranqueamento  
+- Análise exploratória e identificação de padrões de risco  
+- Desenvolvimento de ferramentas de apoio à decisão  
 
 ---
+
+## O Que Eu Já Fiz
+
+### Sistema Inteligente de Análise de Risco e Compliance em Contratações Públicas
+
+Projeto desenvolvido com foco em monitoramento e análise de risco em contratações públicas.
+
+A solução realiza cruzamento de dados entre contratos públicos e bases de sanções (CEIS/CNEP), permitindo identificação de reincidência, padrões de risco e suporte à tomada de decisão preventiva.
+
+Tecnologias utilizadas: Python, consumo de APIs públicas, análise de dados e modelagem de critérios.
+
+---
+
+### Sistema de Recuperação e Ranqueamento de Informação Web
+
+Ferramenta desenvolvida para recuperação automatizada de páginas web (crawling nível 1) e ranqueamento de documentos com base em critérios ponderados de relevância.
+
+O sistema permite ajuste de pesos conforme estratégia de avaliação, aplicando lógica algorítmica para classificação de documentos com base em palavras-chave.
+
+Tecnologias utilizadas: Python, manipulação de requisições HTTP, processamento textual e modelagem de critérios de pontuação.
