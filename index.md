@@ -33,7 +33,12 @@ Projeto desenvolvido com foco em monitoramento e análise de risco em contrataç
 
 A solução realiza cruzamento de dados entre contratos públicos e bases de sanções (CEIS/CNEP), permitindo identificação de reincidência, padrões de risco e suporte à tomada de decisão preventiva.
 
-<strong>Tecnologias:</strong> Python, APIs públicas, análise de dados e modelagem de critérios.
+<br>
+
+<span class="tech-badge">Python</span>
+<span class="tech-badge">APIs Públicas</span>
+<span class="tech-badge">Análise de Dados</span>
+<span class="tech-badge">Modelagem de Critérios</span>
 
 </details>
 </div>
@@ -50,7 +55,12 @@ Ferramenta desenvolvida para recuperação automatizada de páginas web (crawlin
 
 O sistema permite ajuste de pesos conforme estratégia de avaliação, aplicando lógica algorítmica para classificação de documentos com base em palavras-chave.
 
-<strong>Tecnologias:</strong> Python, requisições HTTP, processamento textual e modelagem de pontuação.
+<br>
+
+<span class="tech-badge">Python</span>
+<span class="tech-badge">Web Crawling</span>
+<span class="tech-badge">Processamento Textual</span>
+<span class="tech-badge">Algoritmos de Ranqueamento</span>
 
 </details>
 </div>
