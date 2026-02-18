@@ -28,3 +28,13 @@ code {
 hr {
   border-color: #30363d !important;
 }
+
+details summary {
+  color: #58a6ff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+details {
+  color: #e6edf3;
+}
