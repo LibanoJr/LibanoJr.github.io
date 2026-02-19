@@ -1,55 +1,81 @@
-## Developer Portfolio Landing Page Template
+# Portfólio – Líbano Júnior
 
-### ⚠️ Project Discontinued ⚠️
+Este repositório contém meu portfólio profissional publicado via GitHub Pages.
 
-**Note:** This project is no longer maintained and has been discontinued. No further updates or support will be provided. Feel free to fork the repository and make any necessary changes on your own.
+Sou Engenheiro da Computação com especialização em Ciência de Dados e Inteligência Artificial, com foco na estruturação, análise e interpretação de dados para apoio à tomada de decisão.
 
 ---
 
-### Introduction
+## 🔎 Sobre o Projeto
 
-Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
+Este site foi desenvolvido com o objetivo de apresentar:
 
-### Installation
+- Projetos aplicados em análise de dados
+- Modelagem de critérios e sistemas de ranqueamento
+- Integração com APIs públicas
+- Estruturação e padronização de bases complexas
+- Soluções analíticas voltadas para governança e análise de risco
 
-See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
-___
+O portfólio está estruturado de forma objetiva, priorizando clareza, organização e foco técnico.
 
-You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+---
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 🛠️ Tecnologias Utilizadas
 
-### Markdown
+### Linguagens e Bibliotecas
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- SQL
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Integrações
+- APIs REST públicas
 
-```markdown
-Syntax highlighted code block
+### Ferramentas
+- Git
+- GitHub
+- GitHub Pages
+- Power BI
 
-# Header 1
-## Header 2
-### Header 3
+---
 
-- Bulleted
-- List
+## 📂 Estrutura do Repositório
 
-1. Numbered
-2. List
+- index.md  
+- _layouts/  
+- assets/  
+  - css/  
+  - images/  
+- README.md  
 
-**Bold** and _Italic_ and `Code` text
+---
 
-[Link](url) and ![Image](src)
-```
+## 🌐 Acesso ao Portfólio
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+O site pode ser acessado em:
 
-### Roadmap
+👉 https://libanojr.github.io/
 
-This project has been discontinued and is no longer actively maintained. No new features or fixes will be added. If you're interested in contributing, feel free to fork the repository and customize it to your needs.
-___
+---
 
-### References
+## 🎯 Objetivo Profissional
 
-[1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal (CC0 1.0 Universal License)
-<br>[2] Dummy photo via: https://pixabay.com/photos/man-male-adult-person-caucasian-1209494/ (Pixabay License)
-<br>[3] Dummy thumbnail image created by rawpixel.com: https://www.freepik.com/free-vector/set-elements-infographic_2807573.htm (Standard Freepik License)
+Atuar no desenvolvimento de soluções analíticas aplicadas a contextos que exigem:
+
+- Rigor técnico  
+- Confiabilidade  
+- Governança  
+- Análise de risco  
+- Apoio estruturado à decisão  
+
+---
+
+## 📫 Contato
+
+- LinkedIn: https://www.linkedin.com/in/libano-abboud/  
+- GitHub: https://github.com/LibanoJr  
+
+---
+
+© 2026 – Líbano Júnior
