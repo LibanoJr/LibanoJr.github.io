@@ -34,36 +34,35 @@ hr {
 }
 
 /* ===========================
-   WRAPPER FIX
+   SIDEBAR FIX COMPLETO
 =========================== */
 
 .wrapper {
   background-color: #0d1117 !important;
 }
 
+/* Corrige textos da sidebar */
+.wrapper .site-title {
+  color: #ffffff !important;
+}
+
+.wrapper .site-description,
+.wrapper .site-description p,
+.wrapper .site-description strong {
+  color: #e6edf3 !important;
+}
+
+/* Links da sidebar */
+.wrapper .site-description a {
+  color: #58a6ff !important;
+}
+
+/* Remove fundo branco herdado */
 header, section, footer {
   background-color: transparent !important;
 }
 
 footer {
-  display: none;
-}
-
-/* ===========================
-   DETAILS
-=========================== */
-
-details {
-  color: #e6edf3 !important;
-}
-
-details summary {
-  cursor: pointer;
-  font-weight: 600;
-  list-style: none;
-}
-
-details summary::-webkit-details-marker {
   display: none;
 }
 
@@ -110,7 +109,7 @@ details[open] summary {
 }
 
 /* ===========================
-   CV CARD (PROFISSIONAL, NÃO "LARGADO")
+   CURRÍCULO (REFINADO)
 =========================== */
 
 .cv-container {
