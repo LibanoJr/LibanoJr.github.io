@@ -82,24 +82,55 @@ details summary {
   background-color: #161b22;
   border: 1px solid #30363d;
   border-radius: 12px;
-  padding: 18px 22px;
-  transition: all 0.25s ease;
+  padding: 18px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
 }
 
 .project-card:hover {
   border-color: #58a6ff;
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3px);
 }
 
-.project-card summary {
-  font-size: 17px;
+/* ===========================
+   DETAILS / SUMMARY
+=========================== */
+
+details summary {
+  font-size: 18px;
   font-weight: 600;
   cursor: pointer;
-  color: #ffffff !important;
+  color: #e6edf3;
   list-style: none;
 }
 
-.project-card summary::-webkit-details-marker {
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary {
+  margin-bottom: 10px;
+}
+
+/* ===========================
+   TECH LIST
+=========================== */
+
+.tech-list {
+  margin-top: 8px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #c9d1d9;
+}
+
+.tech-list li {
+  margin-bottom: 6px;
+}
+
+/* ===========================
+   REMOVE FOOTER (GitHub Theme)
+=========================== */
+
+footer {
   display: none;
 }
