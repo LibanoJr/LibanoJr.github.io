@@ -128,9 +128,34 @@ details[open] summary {
 }
 
 /* ===========================
-   REMOVE FOOTER (GitHub Theme)
+   REMOVER FOOTER (GitHub Theme)
 =========================== */
 
 footer {
   display: none;
+}
+
+/* ===========================
+   BOTÃO CURRÍCULO 
+=========================== */
+
+.btn-cv {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 14px;
+  background-color: transparent;
+  border: 1px solid #30363d;
+  color: #58a6ff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.btn-cv:hover {
+  background-color: #161b22;
+  border-color: #58a6ff;
+  color: #79c0ff;
+  transform: translateY(-2px);
 }
