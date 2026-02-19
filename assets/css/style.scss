@@ -50,6 +50,24 @@ footer {
 }
 
 /* ===========================
+   DETAILS
+=========================== */
+
+details {
+  color: #e6edf3 !important;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+/* ===========================
    PROJECT CARDS
 =========================== */
 
@@ -65,6 +83,15 @@ footer {
 .project-card:hover {
   border-color: #58a6ff;
   transform: translateY(-3px);
+}
+
+.project-card summary {
+  font-size: 18px;
+  color: #e6edf3 !important;
+}
+
+details[open] summary {
+  margin-bottom: 10px;
 }
 
 /* ===========================
@@ -83,28 +110,38 @@ footer {
 }
 
 /* ===========================
-   BOTÃO CV MELHORADO
+   CV CARD (PROFISSIONAL, NÃO "LARGADO")
 =========================== */
 
 .cv-container {
-  margin-top: 25px;
-  padding-top: 20px;
+  margin-top: 18px;
+  padding-top: 16px;
   border-top: 1px solid #30363d;
+}
+
+.cv-label {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #8b949e;
+  margin-bottom: 8px;
 }
 
 .cv-button {
   display: inline-block;
-  padding: 10px 18px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, #1f6feb, #58a6ff);
-  color: white !important;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  color: #e6edf3 !important;
   font-weight: 600;
   font-size: 14px;
-  text-decoration: none;
-  transition: all 0.3s ease;
+  text-decoration: none !important;
+  transition: all 0.25s ease;
 }
 
 .cv-button:hover {
+  border-color: #58a6ff;
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(88,166,255,0.3);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
 }
