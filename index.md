@@ -1,7 +1,3 @@
----
-title: ""
----
-
 ## Perfil
 
 Engenheiro da Computação com especialização em Ciência de Dados e Inteligência Artificial, com foco na estruturação, análise e interpretação de dados para apoio à tomada de decisão.
