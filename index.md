@@ -1,23 +1,23 @@
 ---
 title: ""
-------
+---
 
 ## Perfil
 
-Engenheiro da Computação com especialização em Ciência de Dados e Inteligência Artificial. Atuo na estruturação, padronização e análise de dados para apoiar decisões com confiabilidade, governança e visão de risco.
+Engenheiro da Computação com especialização em Ciência de Dados e Inteligência Artificial, com foco na estruturação, análise e interpretação de dados para apoio à tomada de decisão.
 
-Tenho experiência em construção de soluções analíticas (Python), integração de fontes via APIs e desenvolvimento de ferramentas que transformam dados em critérios, indicadores e diagnósticos aplicáveis.
+Atuo no desenvolvimento de soluções analíticas aplicadas a contextos que exigem rigor técnico, confiabilidade, governança e análise de risco.
 
 ---
 
 ## Competências
 
-- Estruturação e padronização de bases de dados (ETL, qualidade e consistência)
-- Integração e coleta de dados via APIs públicas (ingestão e automação)
-- Análise exploratória e geração de insights orientados a decisão
-- Modelagem de critérios, regras e sistemas de ranqueamento
-- Construção de soluções analíticas em Python para problemas reais
-- Documentação e comunicação técnica com clareza
+- Estruturação e padronização de bases de dados complexas  
+- Desenvolvimento de soluções analíticas em Python  
+- Consumo e integração de APIs públicas  
+- Modelagem de critérios e sistemas de ranqueamento  
+- Análise exploratória e identificação de padrões de risco  
+- Desenvolvimento de ferramentas de apoio à decisão  
 
 ---
 
@@ -31,9 +31,9 @@ Tenho experiência em construção de soluções analíticas (Python), integraç
 <br>
 
 <p>
-Projeto orientado a integridade e prevenção, com foco em análise de risco em contratações públicas.
-A solução realiza cruzamento entre dados de contratações e bases de sanções (CEIS/CNEP), permitindo
-identificação de reincidência, padrões de risco e suporte à tomada de decisão preventiva.
+Projeto desenvolvido com foco em monitoramento e análise de risco em contratações públicas.
+A solução realiza cruzamento de dados entre contratos públicos e bases de sanções (CEIS/CNEP),
+permitindo identificação de reincidência, padrões de risco e suporte à tomada de decisão preventiva.
 </p>
 
 <br>
@@ -61,9 +61,10 @@ identificação de reincidência, padrões de risco e suporte à tomada de decis
 <br>
 
 <p>
-Ferramenta em Python para recuperação automatizada de páginas web (crawling em profundidade 1)
-e ranqueamento de documentos com base em múltiplos critérios ponderados. O usuário define palavras-chave
-e pesos, e o sistema retorna os documentos mais relevantes conforme a estratégia de avaliação.
+Ferramenta desenvolvida para recuperação automatizada de páginas web (crawling nível 1)
+e ranqueamento de documentos com base em critérios ponderados.
+O sistema permite ajuste de pesos conforme estratégia de avaliação,
+aplicando lógica algorítmica para classificação de documentos com base em palavras-chave.
 </p>
 
 <br>
@@ -94,9 +95,6 @@ e pesos, e o sistema retorna os documentos mais relevantes conforme a estratégi
 Estudo de caso desenvolvido com foco em modelagem de dados orientada a documentos e análise de desempenho no MongoDB.
 O projeto envolveu definição de estrutura JSON, importação de dados via linha de comando, criação de consultas,
 pipeline de agregação e avaliação comparativa entre varredura completa (COLLSCAN) e uso de índices (IXSCAN).
-
-Foram realizados testes de leitura e escrita, medindo documentos examinados e tempo de execução, além da implementação
-de indexação simples e análise de possíveis melhorias como índices compostos e estratégias de escalabilidade.
 </p>
 
 <br>
