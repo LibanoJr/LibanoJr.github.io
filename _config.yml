@@ -15,6 +15,11 @@ description: >
   <a href="https://www.linkedin.com/in/libano-abboud/" target="_blank">LinkedIn</a> <br>
   <a href="https://github.com/LibanoJr" target="_blank">GitHub</a>
 
+  <div class="cv-container">
+    <div class="cv-label">Currículo</div>
+    <a class="cv-button" href="/assets/Libano_Junior_CV_2026.pdf" download>Baixar PDF →</a>
+  </div>
+
 remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:
