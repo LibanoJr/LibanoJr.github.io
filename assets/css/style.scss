@@ -34,27 +34,32 @@ hr {
 }
 
 /* ===========================
-   SIDEBAR FIX COMPLETO
+   SIDEBAR (HEADER) FIX REAL
+   -> Aqui é onde o tema "apaga" o texto
 =========================== */
 
 .wrapper {
   background-color: #0d1117 !important;
 }
 
-/* Corrige textos da sidebar */
-.wrapper .site-title {
-  color: #ffffff !important;
+/* Força cor e remove opacidade herdada no header (sidebar) */
+.wrapper header,
+.wrapper header * {
+  color: #e6edf3 !important;
+  opacity: 1 !important;
 }
 
-.wrapper .site-description,
-.wrapper .site-description p,
-.wrapper .site-description strong {
-  color: #e6edf3 !important;
+/* Títulos da sidebar (strong) mais destacados */
+.wrapper header strong,
+.wrapper header b {
+  color: #ffffff !important;
+  opacity: 1 !important;
 }
 
 /* Links da sidebar */
-.wrapper .site-description a {
+.wrapper header a {
   color: #58a6ff !important;
+  opacity: 1 !important;
 }
 
 /* Remove fundo branco herdado */
@@ -62,7 +67,26 @@ header, section, footer {
   background-color: transparent !important;
 }
 
+/* Remove footer do tema */
 footer {
+  display: none !important;
+}
+
+/* ===========================
+   DETAILS
+=========================== */
+
+details {
+  color: #e6edf3 !important;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
   display: none;
 }
 
@@ -101,7 +125,7 @@ details[open] summary {
   margin-top: 8px;
   padding-left: 20px;
   font-size: 14px;
-  color: #c9d1d9;
+  color: #c9d1d9 !important;
 }
 
 .tech-list li {
@@ -109,7 +133,7 @@ details[open] summary {
 }
 
 /* ===========================
-   CURRÍCULO (REFINADO)
+   CURRÍCULO (CARD)
 =========================== */
 
 .cv-container {
@@ -122,8 +146,9 @@ details[open] summary {
   font-size: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #8b949e;
+  color: #8b949e !important;
   margin-bottom: 8px;
+  opacity: 1 !important;
 }
 
 .cv-button {
@@ -137,6 +162,7 @@ details[open] summary {
   font-size: 14px;
   text-decoration: none !important;
   transition: all 0.25s ease;
+  opacity: 1 !important;
 }
 
 .cv-button:hover {
