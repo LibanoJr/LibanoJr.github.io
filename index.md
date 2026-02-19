@@ -80,3 +80,38 @@ e pesos, e o sistema retorna os documentos mais relevantes conforme a estratégi
 </details>
 
 </div>
+
+<br>
+
+<div class="project-card">
+
+<details>
+<summary>Modelagem e Análise de Desempenho em Banco NoSQL (MongoDB)</summary>
+
+<br>
+
+<p>
+Estudo de caso desenvolvido com foco em modelagem de dados orientada a documentos e análise de desempenho no MongoDB.
+O projeto envolveu definição de estrutura JSON, importação de dados via linha de comando, criação de consultas,
+pipeline de agregação e avaliação comparativa entre varredura completa (COLLSCAN) e uso de índices (IXSCAN).
+
+Foram realizados testes de leitura e escrita, medindo documentos examinados e tempo de execução, além da implementação
+de indexação simples e análise de possíveis melhorias como índices compostos e estratégias de escalabilidade.
+</p>
+
+<br>
+
+<strong>Tecnologias Utilizadas:</strong>
+
+<ul class="tech-list">
+<li>MongoDB</li>
+<li>NoSQL</li>
+<li>Modelagem de Documentos (JSON)</li>
+<li>Indexação e Otimização de Consultas</li>
+<li>Aggregation Pipeline</li>
+<li>Análise de Desempenho (executionStats)</li>
+</ul>
+
+</details>
+
+</div>
