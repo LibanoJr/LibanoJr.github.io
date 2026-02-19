@@ -12,66 +12,41 @@ html, body {
   color: #e6edf3 !important;
 }
 
-/* Força texto geral */
 body, p, li, span {
   color: #e6edf3 !important;
 }
 
-/* Títulos */
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff !important;
 }
 
-/* Links */
 a {
   color: #58a6ff !important;
 }
 
-/* Código */
 code {
   background-color: #161b22 !important;
   color: #e6edf3 !important;
 }
 
-/* Linha divisória */
 hr {
   border-color: #30363d !important;
 }
 
 /* ===========================
-   WRAPPER / SIDEBAR FIX REAL
+   WRAPPER FIX
 =========================== */
 
 .wrapper {
   background-color: #0d1117 !important;
 }
 
-.site-title,
-.site-description,
-.wrapper p,
-.wrapper li,
-.wrapper span,
-.wrapper strong {
-  color: #e6edf3 !important;
-}
-
-/* Remove qualquer fundo branco herdado */
 header, section, footer {
   background-color: transparent !important;
 }
 
-/* ===========================
-   DETAILS
-=========================== */
-
-details {
-  color: #e6edf3 !important;
-}
-
-details summary {
-  color: #58a6ff !important;
-  cursor: pointer;
-  font-weight: 600;
+footer {
+  display: none;
 }
 
 /* ===========================
@@ -93,26 +68,6 @@ details summary {
 }
 
 /* ===========================
-   DETAILS / SUMMARY
-=========================== */
-
-details summary {
-  font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
-  color: #e6edf3;
-  list-style: none;
-}
-
-details summary::-webkit-details-marker {
-  display: none;
-}
-
-details[open] summary {
-  margin-bottom: 10px;
-}
-
-/* ===========================
    TECH LIST
 =========================== */
 
@@ -128,47 +83,28 @@ details[open] summary {
 }
 
 /* ===========================
-   REMOVER FOOTER (GitHub Theme)
+   BOTÃO CV MELHORADO
 =========================== */
 
-footer {
-  display: none;
+.cv-container {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #30363d;
 }
 
-/* ===========================
-   CARD CURRÍCULO (PROFISSIONAL)
-=========================== */
-
-.cv-card {
-  margin-top: 18px;
-  padding: 16px;
-  border: 1px solid #30363d;
-  border-radius: 10px;
-  background-color: #0d1117;
+.cv-button {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #1f6feb, #58a6ff);
+  color: white !important;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
   transition: all 0.3s ease;
 }
 
-.cv-card:hover {
-  border-color: #58a6ff;
-  transform: translateY(-3px);
-}
-
-.cv-title {
-  display: block;
-  font-size: 12px;
-  color: #8b949e;
-  margin-bottom: 6px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.cv-card a {
-  color: #58a6ff;
-  font-weight: 500;
-  text-decoration: none;
-  font-size: 15px;
-}
-
-.cv-card a:hover {
-  color: #79c0ff;
+.cv-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(88,166,255,0.3);
 }
